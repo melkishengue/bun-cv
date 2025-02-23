@@ -1,0 +1,154 @@
+{
+  "firstName": "Melchisedek",
+  "lastName": "Hengue Touomo",
+  "email": "henguemelkispro@yahoo.com",
+  "phone": "017643244750",
+  "profilePic": "http://imp-worker-4s6t4hipnq-uc.a.run.app/https://storage.googleapis.com/sigessis-edu-dev/CM/IMG_1491a%20(1).jpeg",
+  "profile": [
+    "Software Engineer @MediaMarktSaturn.",
+    "Living & residing in Wiesbaden, Germany.",
+    "Available Time Zones: Europe/Berlin."
+  ],
+  "socials": 
+    [
+      { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue" },
+      { "name": "github.com/melkishengue", "link": "https://github.com/melkishengue" }
+    ],
+    "timedBlocks": [
+      {
+        "blockTitle": "Experience",
+        "blocks": [
+          {
+            "title": "Software Engineer",
+            "organizationName": "MediaMarktSaturn",
+            "timeInterval": "September 2022 – Present",
+            "organizationCity": "Wiesbaden, Germany, Anywhere",
+            "remote": true,
+            "activities": [
+              "I develop fullstack software for the Seller Management Team using NestJS, React, GitOps, and Terraform. My work focuses on building scalable applications, maintaining cloud infrastructure, and streamlining deployment processes, all while collaborating with other teams to enhance Marketplace sellers‘ experience."
+            ]
+          },
+          {
+            "title": "Software Engineer",
+            "organizationName": "VRM Digital Communications",
+            "timeInterval": "April 2021 – Septembre 2022",
+            "organizationCity": "Mainz, Germany",
+            "remote": false,
+            "activities": [
+              "Assisted in the development and launch of a new publishing platform for the VRM group, which powers all its news websites, including <i><a target='_blank' href='https://www.allgemeine-zeitung.de/'>Allgemeine Zeitung</a>, <a target='_blank' href='https://www.echo-online.de/'>Echo Online</a>, <a target='_blank' href='https://www.wiesbadener-kurier.de/'>Wiesbadener Kurier</a>, <a target='_blank' href='https://www.wormser-zeitung.de/'>Wormser Zeitung</a>, and <a target='_blank' href='https://vrm.de/unsere-produkte/vrm-medien'>more</a></i>."
+            ]
+          },
+          {
+            "title": "Software Developer Intern",
+            "organizationName": "ONDIGO - Digitale Markenkraft",
+            "timeInterval": "April 2018 – April 2021",
+            "organizationCity": "Paderborn, Germany",
+            "remote": false,
+            "description": "Development of Web apps with:",
+            "activities": [
+              "ES6, React, React Native, Vue.js and vanilla JS",
+              "Storybook, Strapi headless CMS, Webpack 4, Docker, Gitlab CI, TDD, TYPO3",
+              "Contributed to various projects for multiple company clients."
+            ]
+          },
+          {
+            "title": "Software Testing Intern",
+            "organizationName": "Mettenmeier GmbH",
+            "timeInterval": "October 2016 – March 2018",
+            "organizationCity": "Paderborn, Germany",
+            "remote": false,
+            "description": "I worked on the following tasks:",
+            "activities": [
+              "Setup of the javascript unit tests environment with karma, jasmine and node.js",
+              "Implementation of Javascript Unit Tests",
+              "Creation of Jenkins CI pipelines",
+              "Implementation of build scripts in ANT and MS-DOS"
+            ]
+          }
+        ]
+      },
+      {
+        "blockTitle": "Volunteer & Professional Development",
+        "ignore": true,
+        "blocks": [
+          {
+            "title": "Software Engineer",
+            "organizationName": "E-IGNITED - Independent Consulting",
+            "timeInterval": "August 2020 – Present",
+            "organizationCity": "USA, Australia, Anywhere",
+            "remote": true,
+            "activities": [
+              "Contracted by <strong>T-Mobile US</strong> to help create customer facing onboarding pages at t-mobile.com/support using Vue.js / TypeScript & PHP / Laravel, AWS, GitLab CI/CD stack with CWAG AA/AAA accessibility rating and accessibility compliance auditing.",
+              "Assisted internal T-Mobile engineering teams in testing, diagnosing and debugging production issues, creating documentation, code standards for engineering teams.",
+              "Contracted by <strong>Integrity Testing</strong> an Australian Structural Engineering firm, to assist on dev team for creating an internal React.js, TypeScript, Node.js and AWS Serverless application."
+            ]
+          }
+        ]
+      }
+    ],
+    "skillsBlocks": [
+      {
+        "blockTitle": "Programming & Languages",
+        "skills": [
+          "Node",
+          "Golang",
+          "TypeScript",
+          "JavaScript (ES6+)",
+          "GraphQL",
+          "SQL"
+        ]
+      },
+      {
+        "blockTitle": "Libraries & Frameworks",
+        "skills": [
+          "NestJS",
+          "React",
+          "Next.js"
+        ]
+      },
+      {
+        "blockTitle": "Test Runners & Libraries",
+        "skills": [
+          "Jest",
+          "Testcontainers"
+        ]
+      },
+      {
+        "blockTitle": "Tools | Services | Database",
+        "skills": [
+          "Google Cloud Platform (GCP)",
+          "Docker",
+          "CI / CD",
+          "MongoDB",
+          "PostgreSQL",
+          "Terraform",
+          "Kubernetes"
+        ]
+      },
+      {
+        "blockTitle": "Related Skills",
+        "skills": [
+          "Agile (Scrum)",
+          "Jira / Atlassian"
+        ]
+      },
+      {
+        "blockTitle": "Languages",
+        "skills": [
+          "German: C1",
+          "English: C1",
+          "French: native"
+        ]
+      }
+    ],
+    "educationBlocks": [
+      {
+        "organizationName": "Masters of Computer Science",
+        "location": "University Of Paderborn, Germany",
+        "timeInterval": "2017 - 2021",
+        "summary": "Pursued Masters of Computer Science (specialization Software Engineering) | <strong>Grade: 1.7</strong>",
+        "note": "",
+        "description": "Topics in Software Engineering, Software Quality Assurance, High performance Computing, Testing and Model checking."
+      }
+    ]
+}
