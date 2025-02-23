@@ -12,5 +12,5 @@ RUN bun run build
 
 FROM base AS release 
 COPY --from=build /usr/src/app/dist ./dist
-EXPOSE ${PORT}
+EXPOSE 3010
 CMD ["bun", "start:prod"]
