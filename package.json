@@ -8,9 +8,9 @@
   "license": "UNLICENSED",
   "module": "src/main.ts",
   "scripts": {
-    "build": "NODE_ENV=production bun run scripts/build.ts",
+    "build": "NODE_ENV=production bun run build:css && bun run scripts/build.ts",
+    "build:css": "postcss ./tailwind.css -o assets/css/output.css",
     "format": "prettier --write \"src/**/*.ts\" \"test/**/*.ts\"",
-    "css": "concurrently \"postcss ./tailwind.css -o assets/css/output.css --watch\"",
     "serve": "concurrently \"postcss ./tailwind.css -o assets/css/output.css --watch\" \"bun run start:dev \"",
     "start": "NODE_ENV=development tsc && bun .",
     "start:dev": "NODE_ENV=development tsc-watch --onSuccess \"bun .\"",

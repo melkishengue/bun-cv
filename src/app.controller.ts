@@ -25,13 +25,13 @@ export class AppController {
     return 'OK';
   }
 
-  @Get('/:name')
+  @Get('/:name?')
   async home(
     @Res() res: Response,
     @Headers('HX-Request') htmxHeader: string,
     @Param('name') name: string,
   ) {
-    const data = this.appService.getData(name);
+    const data = this.appService.getData(name ?? 'melkishengue');
     if (!data) {
       return;
     }

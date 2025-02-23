@@ -68,77 +68,6 @@ export const Body: React.FC<BodyProps> = (props: BodyProps) => {
             ))}
           </section>
 
-          {/* <section className="mt-8 first:mt-0" id="projects">
-            <h2 className="mb-4 font-bold tracking-widest text-sm2 text-purple-700">
-              TECHNICAL PROJECTS
-            </h2>
-
-            <section className="mb-4.5">
-              <header>
-                <h3 className="text-sm font-semibold tex t-gray-700 leading-snugish">
-                  <a
-                    href="https://www.t-mobile.com/support/new-to-tmobile"
-                    className="group"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                  >
-                    T-Mobile New Customer Onboarding
-                    <span
-                      className="
-                          inline-block
-                          text-gray-550
-                          print:text-black
-                          font-normal
-                          group-hover:text-gray-700
-                          transition
-                          duration-100
-                          ease-in
-                        "
-                    >
-                      ↗
-                    </span>
-                  </a>
-                </h3>
-                <p className="leading-normal text-sm text-gray-650">
-                  Stack: Javascript, Vue.js, Laravel
-                </p>
-                <p className="leading-normal text-sm text-gray-650">
-                  <i>Finished</i>
-                </p>
-              </header>
-              <div className="mt-2.1 text-xs text-gray-700 leading-normal">
-                <p>
-                  <span className="font-semibold">Description:</span>
-                  T-Mobile onboarding experience for new customers and Sprint
-                  customers after merger.
-                </p>
-                <p>
-                  <span className="font-semibold">Market Need:</span>
-                  Large churn from Sprint customers migrating to T-Mobile.
-                </p>
-                <p>
-                  <span className="font-semibold">Solves:</span>
-                  Integrates the T-Mobile Un-Carrier campaign, showcases
-                  benefits, and educates customers
-                </p>
-                <span className="font-semibold">Features: </span>
-
-                <br />
-                <ul className="list-inside">
-                  <li className="ml-1.5">
-                    <span className="-ml-1.5 select-none text-gray-600">›</span>
-                    Users can set up online account to manage T-Mobile account &
-                    see of the benefits they recieve with T-Mobile service.
-                  </li>
-                  <li className="ml-1.5">
-                    <span className="-ml-1.5 select-none text-gray-600">›</span>
-                    Helps transition customers migrating from Sprint.
-                  </li>
-                </ul>
-              </div>
-            </section>
-          </section> */}
-
           <section className="col-span-3 mt-8 first:mt-0" id="education">
             <h2 className="mb-4 font-bold tracking-widest text-sm2 text-purple-700">
               EDUCATION
@@ -150,6 +79,57 @@ export const Body: React.FC<BodyProps> = (props: BodyProps) => {
           </section>
         </section>
       </div>
+
+      <footer className="print:pb-0 pb-5">
+        <section id="resume-info" className="flex flex-row mt-16 print:mt-0">
+          <h2 className="text-xs font-hairline text-gray-550">
+            This resume was built with bun, nestjs, jsx, htmx and Tailwind CSS
+            for fun!
+          </h2>
+          <a
+            target="_blank"
+            href="https://github.com/melkishengue/bun-cv"
+            className="group hover:text-gray-700 border-l border-gray-500 ml-3 pl-3 text-gray-550 text-xs font-hairline"
+          >
+            See the GitHub Repo
+            <span
+              className="
+                  inline-block
+                  text-gray-550
+                  print:text-black
+                  font-normal
+                  group-hover:text-gray-700
+                  transition
+                  duration-100
+                  ease-in
+                "
+            >
+              ↗
+            </span>
+          </a>
+          <a
+            target="_blank"
+            href="https://github.com/toreylittlefield/my-custom-tailwind-resume"
+            className="group hover:text-gray-700 border-l border-gray-500 ml-3 pl-3 text-gray-550 text-xs font-hairline"
+          >
+            Original template from
+            <span
+              className="
+                  inline-block
+                  text-gray-550
+                  print:text-black
+                  font-normal
+                  group-hover:text-gray-700
+                  transition
+                  duration-100
+                  ease-in
+                "
+            >
+              ↗
+            </span>
+          </a>
+        </section>
+      </footer>
     </>
   );
 };
