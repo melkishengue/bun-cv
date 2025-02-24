@@ -12,5 +12,7 @@ RUN bun run build
 
 FROM base AS release 
 COPY --from=build /usr/src/app/dist ./dist
+COPY --from=build /usr/src/app/assets ./assets
+COPY --from=build /usr/src/app/src/data ./src/data
 EXPOSE 3010
 CMD ["bun", "start:prod"]

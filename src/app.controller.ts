@@ -48,7 +48,7 @@ export class AppController {
       res,
       React.createElement(Layout, {
         content,
-        metadata: { title: data.firstName },
+        metadata: { title: data.firstName, favicon: data.favicon },
       }),
     );
   }

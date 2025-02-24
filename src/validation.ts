@@ -45,6 +45,7 @@ const CertificationBlocksSchema = z.object({
 });
 
 export const CVSchema = z.object({
+  favicon: z.string(),
   profilePic: z.string(),
   firstName: z.string(),
   lastName: z.string(),

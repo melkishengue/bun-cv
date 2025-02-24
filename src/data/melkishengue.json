@@ -2,8 +2,9 @@
   "firstName": "Melchisedek",
   "lastName": "Hengue Touomo",
   "email": "henguemelkispro@yahoo.com",
-  "phone": "017643244750",
+  "phone": "+49 017643244750",
   "profilePic": "http://imp-worker-4s6t4hipnq-uc.a.run.app/https://storage.googleapis.com/sigessis-edu-dev/CM/IMG_1491a%20(1).jpeg",
+  "favicon": "https://img.icons8.com/ios-glyphs/30/7950F2/parse-from-clipboard.png",
   "profile": [
     "Software Engineer @MediaMarktSaturn.",
     "Living & residing in Wiesbaden, Germany.",
@@ -35,7 +36,8 @@
             "organizationCity": "Mainz, Germany",
             "remote": false,
             "activities": [
-              "Assisted in the development and launch of a new publishing platform for the VRM group, which powers all its news websites, including <i><a target='_blank' href='https://www.allgemeine-zeitung.de/'>Allgemeine Zeitung</a>, <a target='_blank' href='https://www.echo-online.de/'>Echo Online</a>, <a target='_blank' href='https://www.wiesbadener-kurier.de/'>Wiesbadener Kurier</a>, <a target='_blank' href='https://www.wormser-zeitung.de/'>Wormser Zeitung</a>, and <a target='_blank' href='https://vrm.de/unsere-produkte/vrm-medien'>more</a></i>."
+              "Assisted in the development and the launch of a new publishing platform for the VRM group, which powers all its news websites, including <i><a target='_blank' href='https://www.allgemeine-zeitung.de/'>Allgemeine Zeitung</a>, <a target='_blank' href='https://www.echo-online.de/'>Echo Online</a>, <a target='_blank' href='https://www.wiesbadener-kurier.de/'>Wiesbadener Kurier</a>, <a target='_blank' href='https://www.wormser-zeitung.de/'>Wormser Zeitung</a>, and <a target='_blank' href='https://vrm.de/unsere-produkte/vrm-medien'>more</a></i>.",
+              "As a Fullstack Software Engineer, I worked with the following technologies: NodeJS, Typescript, GraphQL and Vue.js."
             ]
           },
           {

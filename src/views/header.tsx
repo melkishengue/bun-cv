@@ -26,7 +26,7 @@ export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
             {props.data.firstName} {props.data.lastName}
           </div>
           <div>
-            Call me <i>Melkis</i>.
+            I go by <i>Melkis</i>.
           </div>
         </div>
         <div className="w-24 overflow-clip">
