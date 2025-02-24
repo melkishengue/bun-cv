@@ -22,14 +22,14 @@ export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
           </div>
         </div>
         <div className="mr-auto">
-          <div className="print:text-5xl lg:text-5xl md:text-5xl text-3xl font-semibold text-gray-750 pb-px">
+          <div className="print:text-5xl lg:text-5xl md:text-5xl text-2xl font-semibold text-gray-750 pb-px">
             {props.data.firstName} {props.data.lastName}
           </div>
           <div>
             I go by <i>Melkis</i>.
           </div>
         </div>
-        <div className="w-24 overflow-clip">
+        <div className="w-24 overflow-clip mt-2 md:mt-0">
           <img src={props.data.profilePic} />
         </div>
       </header>
@@ -67,7 +67,7 @@ export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className="fab fa-linkedin text-purple-900 mr-1"></i>
+                <i className={'text-purple-900 mr-1 fab fa-' + social.icon}></i>
                 {social.name}
                 <span
                   className="

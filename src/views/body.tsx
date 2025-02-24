@@ -114,18 +114,17 @@ export const Body: React.FC<BodyProps> = (props: BodyProps) => {
 
         <section
           id="resume-info"
-          className="flex flex-row mt-16 print:mt-0 print:hidden"
+          className="flex flex-col md:flex-row mt-16 print:mt-0 print:hidden"
         >
           <h2 className="text-xs font-hairline text-gray-550">
-            This resume was built with bun, nestjs, jsx, htmx and Tailwind CSS
-            for fun!
+            Built with bun, nestjs, jsx, htmx and Tailwind CSS for fun!
           </h2>
           <a
             target="_blank"
             href="https://github.com/melkishengue/bun-cv"
-            className="group hover:text-gray-700 border-l border-gray-500 ml-3 pl-3 text-gray-550 text-xs font-hairline"
+            className="group hover:text-gray-700 md:border-l md:border-gray-500 md:ml-3 md:pl-3 text-gray-550 text-xs font-hairline"
           >
-            See the GitHub Repo
+            GitHub Repo
             <span
               className="
                   inline-block
@@ -144,9 +143,9 @@ export const Body: React.FC<BodyProps> = (props: BodyProps) => {
           <a
             target="_blank"
             href="https://github.com/toreylittlefield/my-custom-tailwind-resume"
-            className="group hover:text-gray-700 border-l border-gray-500 ml-3 pl-3 text-gray-550 text-xs font-hairline"
+            className="group hover:text-gray-700 md:border-l md:border-gray-500 md:ml-3 md:pl-3 text-gray-550 text-xs font-hairline"
           >
-            Original template from
+            Original template
             <span
               className="
                   inline-block

@@ -12,8 +12,8 @@
   ],
   "socials": 
     [
-      { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue" },
-      { "name": "github.com/melkishengue", "link": "https://github.com/melkishengue" }
+      { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue", "icon": "linkedin" },
+      { "name": "github.com/melkishengue", "link": "https://github.com/melkishengue", "icon": "github" }
     ],
     "timedBlocks": [
       {

@@ -3,6 +3,7 @@ import z from 'zod';
 const socialSchema = z.object({
   name: z.string(),
   link: z.string(),
+  icon: z.string(),
 });
 
 const BlockSchema = z.object({
