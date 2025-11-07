@@ -60,8 +60,8 @@ export interface EducationStepProps {
   organizationName: string;
   timeInterval: string;
   location: string;
-  summary: string;
-  description: string;
+  summary?: string;
+  description?: string;
   note?: string;
 }
 
@@ -78,9 +78,12 @@ export const EducationStep: React.FC<EducationStepProps> = (
           {props.timeInterval} // {props.location}
         </p>
       </header>
-      <p className="mt-2.1 text-sm text-gray-800 leading-normal">
-        <span dangerouslySetInnerHTML={{ __html: props.summary }} />
-      </p>
+      {props.summary ? (
+        <p className="mt-2.1 text-sm text-gray-800 leading-normal">
+          <span dangerouslySetInnerHTML={{ __html: props.summary }} />
+        </p>
+      ) : null}
+
       <p className="mt-0.5 text-xs text-gray-600 leading-normal">
         {props.note ? (
           <>
@@ -90,7 +93,7 @@ export const EducationStep: React.FC<EducationStepProps> = (
         ) : (
           <></>
         )}
-        {props.description}
+        {props.description ? <>{props.description}</> : null}
       </p>
     </section>
   );

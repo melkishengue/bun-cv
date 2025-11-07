@@ -1,6 +1,7 @@
 {
   "firstName": "Melchisedek",
   "lastName": "Hengue Touomo",
+  "description": "I go by Melkis.",
   "email": "henguemelkispro@yahoo.com",
   "phone": "+49 017643244750",
   "profilePic": "http://imp-worker-4s6t4hipnq-uc.a.run.app/https://storage.googleapis.com/sigessis-edu-dev/CM/IMG_1491a%20(1).jpeg",
@@ -65,24 +66,6 @@
               "Implementation of Javascript Unit Tests",
               "Creation of Jenkins CI pipelines",
               "Implementation of build scripts in ANT and MS-DOS"
-            ]
-          }
-        ]
-      },
-      {
-        "blockTitle": "Volunteer & Professional Development",
-        "ignore": true,
-        "blocks": [
-          {
-            "title": "Software Engineer",
-            "organizationName": "E-IGNITED - Independent Consulting",
-            "timeInterval": "August 2020 – Present",
-            "organizationCity": "USA, Australia, Anywhere",
-            "remote": true,
-            "activities": [
-              "Contracted by <strong>T-Mobile US</strong> to help create customer facing onboarding pages at t-mobile.com/support using Vue.js / TypeScript & PHP / Laravel, AWS, GitLab CI/CD stack with CWAG AA/AAA accessibility rating and accessibility compliance auditing.",
-              "Assisted internal T-Mobile engineering teams in testing, diagnosing and debugging production issues, creating documentation, code standards for engineering teams.",
-              "Contracted by <strong>Integrity Testing</strong> an Australian Structural Engineering firm, to assist on dev team for creating an internal React.js, TypeScript, Node.js and AWS Serverless application."
             ]
           }
         ]

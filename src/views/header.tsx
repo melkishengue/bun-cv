@@ -5,7 +5,13 @@ import type { CVSchemaType } from '@/validation';
 export interface HeaderProps {
   data: Pick<
     CVSchemaType,
-    'firstName' | 'lastName' | 'email' | 'phone' | 'socials' | 'profilePic'
+    | 'firstName'
+    | 'lastName'
+    | 'email'
+    | 'phone'
+    | 'socials'
+    | 'profilePic'
+    | 'description'
   >;
 }
 
@@ -25,9 +31,13 @@ export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
           <div className="print:text-5xl lg:text-5xl md:text-5xl text-2xl font-semibold text-gray-750 pb-px">
             {props.data.firstName} {props.data.lastName}
           </div>
-          <div>
-            I go by <i>Melkis</i>.
-          </div>
+          {props.data.description ? (
+            // <div className="text-sm italic">{props.data.description}</div>
+            <div
+              className="text-sm italic"
+              dangerouslySetInnerHTML={{ __html: props.data.description }}
+            />
+          ) : null}
         </div>
         <div className="w-24 overflow-clip mt-2 md:mt-0">
           <img src={props.data.profilePic} />

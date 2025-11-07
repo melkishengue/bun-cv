@@ -31,9 +31,9 @@ const educationBlocksSchema = z.object({
   organizationName: z.string(),
   location: z.string(),
   timeInterval: z.string(),
-  summary: z.string(),
+  summary: z.string().optional(),
   note: z.string().optional(),
-  description: z.string(),
+  description: z.string().optional(),
 });
 
 const CertificationBlocksSchema = z.object({
@@ -49,6 +49,7 @@ export const CVSchema = z.object({
   favicon: z.string(),
   profilePic: z.string(),
   firstName: z.string(),
+  description: z.string().optional(),
   lastName: z.string(),
   email: z.string(),
   phone: z.string().optional(),

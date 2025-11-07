@@ -17,6 +17,7 @@ export const Home: React.FC<HomeProps> = (props: HomeProps) => {
           lastName: props.data.lastName,
           email: props.data.email,
           phone: props.data.phone,
+          description: props.data.description,
           socials: props.data.socials,
           profilePic: props.data.profilePic,
         }}
