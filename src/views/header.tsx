@@ -39,9 +39,9 @@ export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
             />
           ) : null}
         </div>
-        {/* <div className="w-24 overflow-clip mt-2 md:mt-0">
+        <div className="w-24 overflow-clip mt-2 md:mt-0">
           <img src={props.data.profilePic} />
-        </div> */}
+        </div>
       </header>
       <section className="mb-10 first:mt-0" id="contact">
         <h2 className="mb-2 md:mb-0 font-bold tracking-widest text-sm2 text-gray-550">
