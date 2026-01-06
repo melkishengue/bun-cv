@@ -9,8 +9,7 @@
   "profile": [
     "Software Engineer at MediaMarktSaturn working on a large-scale, multi-country Marketplace platform.",
     "Experience building and operating full-stack, cloud-native applications supporting millions of products and thousands of third-party sellers.",
-    "Based in Wiesbaden, Germany.",
-    "Time Zone: Europe/Berlin."
+    "Based in Wiesbaden, Germany | Time Zone: Europe/Berlin."
   ],
   "socials": [
     { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue", "icon": "linkedin" },
@@ -43,6 +42,7 @@
           "remote": false,
           "activities": [
             "Contributed to the development and launch of a centralized publishing platform powering multiple high-traffic news websites within the VRM Group.",
+            "Contributed to digital products and publishing platforms for VRM’s regional media portfolio, reaching hundreds of thousands of daily readers and millions of monthly online contacts.",
             "Implemented full-stack features using Node.js, TypeScript, GraphQL, and Vue.js, supporting content creation and delivery at scale.",
             "Worked on APIs and frontend components used daily by editorial teams across several regional news outlets.",
             "Collaborated closely with product owners and editors to deliver reliable publishing workflows."
