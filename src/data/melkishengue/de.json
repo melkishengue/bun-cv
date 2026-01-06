@@ -1,0 +1,151 @@
+{
+  "firstName": "Melchisedek",
+  "lastName": "Hengue Touomo",
+  "description": "Ich werde Melkis genannt.",
+  "email": "henguemelkispro@yahoo.com",
+  "phone": "+49 017643244750",
+  "profilePic": "http://imp-worker-4s6t4hipnq-uc.a.run.app/https://storage.googleapis.com/sigessis-edu-dev/CM/IMG_1491a%20(1).jpeg",
+  "favicon": "https://img.icons8.com/ios-glyphs/30/7950F2/parse-from-clipboard.png",
+  "profile": [
+    "Software Engineer bei MediaMarktSaturn mit Fokus auf eine skalierbare, länderübergreifende Marketplace-Plattform.",
+    "Erfahrung in der Entwicklung und dem Betrieb cloud-nativer Full-Stack-Anwendungen für Millionen von Produkten und tausende Drittanbieter.",
+    "Wohnhaft in Wiesbaden, Deutschland.",
+    "Zeitzone: Europe/Berlin."
+  ],
+  "socials": [
+    { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue", "icon": "linkedin" },
+    { "name": "github.com/melkishengue", "link": "https://github.com/melkishengue", "icon": "github" }
+  ],
+  "timedBlocks": [
+    {
+      "blockTitle": "Berufserfahrung",
+      "blocks": [
+        {
+          "title": "Software Engineer",
+          "organizationName": "MediaMarktSaturn",
+          "timeInterval": "September 2022 – Heute",
+          "organizationCity": "Wiesbaden, Deutschland, Remote",
+          "remote": true,
+          "activities": [
+            "Entwicklung und Wartung von Full-Stack-Services für die Order-Management-Plattform des MediaMarktSaturn Marketplaces in mehreren europäischen Ländern.",
+            "Mitarbeit an Systemen, die einen Marketplace mit über 1,6 Millionen Produkten und mehr als 1.600 Drittanbietern unterstützen.",
+            "Entwicklung skalierbarer Backend-Services mit NestJS und TypeScript mit Fokus auf Stabilität, saubere APIs und wartbare Domänenlogik.",
+            "Implementierung von Frontend-Komponenten mit React zur Verbesserung interner Tools und verkäuferseitiger Workflows.",
+            "Automatisierung von Cloud-Infrastruktur und Deployments mittels Terraform, GitOps, Kubernetes und CI/CD-Pipelines auf der Google Cloud Platform (GCP).",
+            "Enge Zusammenarbeit mit Produktmanagement, QA und Plattform-Teams zur kontinuierlichen Verbesserung der Seller Experience und Systemstabilität."
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "organizationName": "VRM Digital Communications",
+          "timeInterval": "April 2021 – September 2022",
+          "organizationCity": "Mainz, Deutschland",
+          "remote": false,
+          "activities": [
+            "Mitarbeit an der Entwicklung und dem Launch einer zentralen Publishing-Plattform für mehrere reichweitenstarke Nachrichtenportale der VRM-Gruppe.",
+            "Beitrag zu digitalen Produkten und Publishing-Plattformen für das regionale Medienportfolio der VRM mit hunderttausenden täglichen Lesern und Millionen monatlicher Online-Kontakte.",
+            "Implementierung von Full-Stack-Funktionalitäten mit Node.js, TypeScript, GraphQL und Vue.js zur skalierbaren Content-Erstellung und -Auslieferung.",
+            "Entwicklung und Pflege von APIs sowie Frontend-Komponenten, die täglich von Redaktionsteams genutzt werden.",
+            "Zusammenarbeit mit Product Ownern und Redaktionen zur Bereitstellung stabiler und zuverlässiger Publishing-Workflows."
+          ]
+        },
+        {
+          "title": "Software Developer Intern",
+          "organizationName": "ONDIGO - Digitale Markenkraft",
+          "timeInterval": "April 2018 – April 2021",
+          "organizationCity": "Paderborn, Deutschland",
+          "remote": false,
+          "description": "Entwicklung von Web- und Mobile-Applikationen mit modernen JavaScript-Technologien:",
+          "activities": [
+            "Entwicklung von Features mit React, React Native, Vue.js, ES6 und Vanilla JavaScript.",
+            "Arbeit mit Storybook, Strapi Headless CMS, Webpack, Docker, GitLab CI und Test-Driven Development (TDD).",
+            "Mitarbeit an mehreren Kundenprojekten mit Fokus auf produktionsreife Systeme, Deployment-Pipelines und Teamarbeit."
+          ]
+        },
+        {
+          "title": "Software Testing Intern",
+          "organizationName": "Mettenmeier GmbH",
+          "timeInterval": "Oktober 2016 – März 2018",
+          "organizationCity": "Paderborn, Deutschland",
+          "remote": false,
+          "description": "Software-Qualitätssicherung und Build-Automatisierung:",
+          "activities": [
+            "Aufbau und Pflege von JavaScript-Testumgebungen mit Karma, Jasmine und Node.js.",
+            "Implementierung automatisierter Unit-Tests zur Verbesserung der Codequalität und Regression-Sicherheit.",
+            "Erstellung und Wartung von Jenkins-CI-Pipelines zur Build- und Testautomatisierung.",
+            "Entwicklung von Build-Skripten für Legacy-Systeme mit ANT und MS-DOS."
+          ]
+        }
+      ]
+    }
+  ],
+  "skillsBlocks": [
+    {
+      "blockTitle": "Programmiersprachen",
+      "skills": [
+        "Go (Golang)",
+        "Node.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "GraphQL",
+        "SQL"
+      ]
+    },
+    {
+      "blockTitle": "Frameworks & Libraries",
+      "skills": [
+        "NestJS",
+        "React",
+        "Next.js"
+      ]
+    },
+    {
+      "blockTitle": "Testing",
+      "skills": [
+        "Jest",
+        "Testcontainers",
+        "Unit Tests",
+        "Integrationstests"
+      ]
+    },
+    {
+      "blockTitle": "Cloud, DevOps & Datenbanken",
+      "skills": [
+        "Google Cloud Platform (GCP)",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "CI/CD",
+        "GitOps",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "blockTitle": "Methoden & Tools",
+      "skills": [
+        "Agile Methoden (Scrum)",
+        "Jira / Atlassian",
+        "Teamübergreifende Zusammenarbeit"
+      ]
+    },
+    {
+      "blockTitle": "Sprachen",
+      "skills": [
+        "Deutsch: C1",
+        "Englisch: C1",
+        "Französisch: Muttersprache"
+      ]
+    }
+  ],
+  "educationBlocks": [
+    {
+      "organizationName": "Master of Computer Science",
+      "location": "Universität Paderborn, Deutschland",
+      "timeInterval": "2017 - 2021",
+      "summary": "Masterstudium Informatik (Schwerpunkt Software Engineering) | Abschlussnote: 1,7",
+      "note": "",
+      "description": "Schwerpunkte: Software Engineering, Software-Qualitätssicherung, High Performance Computing, Softwaretests und Model Checking."
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "firstName": "Ornela",
+  "lastName": "Yepgang Kemajou",
+  "description": "In der Zeit besuche ich einen <strong>Deutschkurs</strong>. Ich <strong>bache</strong> auch sehr gerne in meiner Freizeit. <br/>",
+  "email": "ornelayepgang@gmail.com",
+  "phone": "+49 015563774098",
+  "profilePic": "https://media.licdn.com/dms/image/v2/C4D03AQFaLvza-UpzMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1620219476551?e=1769040000&v=beta&t=xkxXTvmp7PuagEAmYF75-vNONLlOYm2QhmiV5EQw8Mo",
+  "favicon": "https://img.icons8.com/ios-glyphs/30/7950F2/parse-from-clipboard.png",
+  "profile": [
+    "Deutsch Lernerin.",
+    "Ich wohne in Wiesbaden, Deutschland.",
+    "Ab sofort verfügbar."
+  ],
+  "socials": 
+  [
+      { "name": "Les petits plaisirs gourmands", "link": "https://www.instagram.com/petitplaisirgourmand?igsh=cHIwZWg4NGRpMWhh", "icon": "instagram" }
+    ],
+    "timedBlocks": [
+      {
+        "blockTitle": "Experience",
+        "blocks": [
+          {
+            "title": "Deutsch Kurs",
+            "organizationName": "inlingua Sprachschule Wiesbaden",
+            "timeInterval": "Dezember 2025 – ?",
+            "organizationCity": "Wiesbaden, Deutschland",
+            "remote": false,
+            "activities": [
+              "Deutsch Kurs B1"
+            ]
+          },
+          {
+            "title": "Deutsch Kurs",
+            "organizationName": "Erfolg Deutsch Zentrum",
+            "timeInterval": "Januar 2024 – Januar 2025",
+            "organizationCity": "Jaundé, Kamerun",
+            "remote": false,
+            "activities": [
+              "Deutsch Kurs A1.1, A1.2 A2.1, A2.2 B1.1"
+            ]
+          },
+          {
+            "title": "Buchhalterin",
+            "organizationName": "ELECNOR",
+            "timeInterval": "Januar 2022 – August 2023",
+            "organizationCity": "Jaundé, Kamerun",
+            "remote": false,
+            "activities": [
+              "Beauftragte für die Buchhaltung des Anlagevermögens und der Rechnungsabgrenzungsposten"
+            ]
+          },
+          {
+            "title": "Kundenservice",
+            "organizationName": "ECOBANK",
+            "timeInterval": "Oktober 2020 - Januar 2022",
+            "organizationCity": "Douala, Kamerun",
+            "remote": false,
+            "activities": [
+              "Kundenempfang und Beratung zu bankfachlichen Prozessen"
+            ]
+          }
+        ]
+      }
+    ],
+    "skillsBlocks": [
+      {
+        "blockTitle": "Languages",
+        "skills": [
+          "Deutsch: B1",
+          "Französisch: Muttersprachlerin"
+        ]
+      }
+    ],
+    "educationBlocks": [
+      {
+        "organizationName": "Master 1 in Bank and Finance",
+        "location": "ESSEC, Kamerun",
+        "timeInterval": "2015 - 2020"
+      }
+    ]
+}

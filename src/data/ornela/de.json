@@ -4,7 +4,7 @@
   "description": "In der Zeit besuche ich einen <strong>Deutschkurs</strong>. Ich <strong>bache</strong> auch sehr gerne in meiner Freizeit. <br/>",
   "email": "ornelayepgang@gmail.com",
   "phone": "+49 015563774098",
-  "profilePic": "https://media.licdn.com/dms/image/v2/C4D03AQFaLvza-UpzMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1620219476551?e=1764201600&v=beta&t=X4wK4q6c5JlDhhKBxeoggFESpF_hwqJna2HfS_K1qcU",
+  "profilePic": "https://media.licdn.com/dms/image/v2/C4D03AQFaLvza-UpzMw/profile-displayphoto-shrink_400_400/profile-displayphoto-shrink_400_400/0/1620219476551?e=1769040000&v=beta&t=xkxXTvmp7PuagEAmYF75-vNONLlOYm2QhmiV5EQw8Mo",
   "favicon": "https://img.icons8.com/ios-glyphs/30/7950F2/parse-from-clipboard.png",
   "profile": [
     "Deutsch Lernerin.",
@@ -75,10 +75,7 @@
       {
         "organizationName": "Master 1 in Bank and Finance",
         "location": "ESSEC, Kamerun",
-        "timeInterval": "2015 - 2020",
-        "summary": "Pursued Masters of Computer Science (specialization Software Engineering) | <strong>Grade: 1.7</strong>",
-        "note": "",
-        "description": "Topics in Software Engineering, Software Quality Assurance, High performance Computing, Testing and Model checking."
+        "timeInterval": "2015 - 2020"
       }
     ]
 }

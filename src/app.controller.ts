@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Controller, Get, Headers, Param, Res } from '@nestjs/common';
+import { Controller, Get, Headers, Param, Query, Res } from '@nestjs/common';
 import { renderToReadableStream } from 'react-dom/server';
 import type { Response } from 'express';
 import { Readable } from 'node:stream';
@@ -19,19 +19,17 @@ const renderToClient = async (res: Response, component: React.ReactNode) => {
 export class AppController {
   constructor(private readonly appService: AppService) {}
 
-  @Get('/reload')
-  async reload() {
-    await this.appService.reload();
-    return 'OK';
-  }
-
   @Get('/:name?')
   async home(
     @Res() res: Response,
     @Headers('HX-Request') htmxHeader: string,
     @Param('name') name: string,
+    @Query('lang') lang?: string,
   ) {
-    const data = this.appService.getData(name ?? 'melkishengue');
+    const data = await this.appService.getData(
+      name ?? 'melkishengue',
+      lang ?? 'en',
+    );
     if (!data) {
       return;
     }
