@@ -83,7 +83,8 @@
     {
       "blockTitle": "Programmiersprachen",
       "skills": [
-        "Go (Golang)",
+        "Go",
+        "Java",
         "Node.js",
         "TypeScript",
         "JavaScript (ES6+)",
@@ -96,7 +97,8 @@
       "skills": [
         "NestJS",
         "React",
-        "Next.js"
+        "Next.js",
+        "SpringBoot"
       ]
     },
     {
