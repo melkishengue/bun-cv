@@ -7,133 +7,143 @@
   "profilePic": "http://imp-worker-4s6t4hipnq-uc.a.run.app/https://storage.googleapis.com/sigessis-edu-dev/CM/IMG_1491a%20(1).jpeg",
   "favicon": "https://img.icons8.com/ios-glyphs/30/7950F2/parse-from-clipboard.png",
   "profile": [
-    "Software Engineer @MediaMarktSaturn.",
-    "Living & residing in Wiesbaden, Germany.",
-    "Available Time Zones: Europe/Berlin."
+    "Software Engineer at MediaMarktSaturn working on a large-scale, multi-country Marketplace platform.",
+    "Experience building and operating full-stack, cloud-native applications supporting millions of products and thousands of third-party sellers.",
+    "Based in Wiesbaden, Germany | Time Zone: Europe/Berlin."
   ],
-  "socials": 
-    [
-      { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue", "icon": "linkedin" },
-      { "name": "github.com/melkishengue", "link": "https://github.com/melkishengue", "icon": "github" }
-    ],
-    "timedBlocks": [
-      {
-        "blockTitle": "Experience",
-        "blocks": [
-          {
-            "title": "Software Engineer",
-            "organizationName": "MediaMarktSaturn",
-            "timeInterval": "September 2022 – Present",
-            "organizationCity": "Wiesbaden, Germany, Anywhere",
-            "remote": true,
-            "activities": [
-              "I develop fullstack software for the Order Management Team using NestJS, React, GitOps, and Terraform. My work focuses on building scalable applications, maintaining cloud infrastructure, and streamlining deployment processes, all while collaborating with other teams to enhance Marketplace sellers‘ experience."
-            ]
-          },
-          {
-            "title": "Software Engineer",
-            "organizationName": "VRM Digital Communications",
-            "timeInterval": "April 2021 – Septembre 2022",
-            "organizationCity": "Mainz, Germany",
-            "remote": false,
-            "activities": [
-              "Assisted in the development and the launch of a new publishing platform for the VRM group, which powers all its news websites, including <i><a target='_blank' href='https://www.allgemeine-zeitung.de/'>Allgemeine Zeitung</a>, <a target='_blank' href='https://www.echo-online.de/'>Echo Online</a>, <a target='_blank' href='https://www.wiesbadener-kurier.de/'>Wiesbadener Kurier</a>, <a target='_blank' href='https://www.wormser-zeitung.de/'>Wormser Zeitung</a>, and <a target='_blank' href='https://vrm.de/unsere-produkte/vrm-medien'>more</a></i>.",
-              "As a Fullstack Software Engineer, I worked with the following technologies: NodeJS, Typescript, GraphQL and Vue.js."
-            ]
-          },
-          {
-            "title": "Software Developer Intern",
-            "organizationName": "ONDIGO - Digitale Markenkraft",
-            "timeInterval": "April 2018 – April 2021",
-            "organizationCity": "Paderborn, Germany",
-            "remote": false,
-            "description": "Development of Web apps with:",
-            "activities": [
-              "ES6, React, React Native, Vue.js and vanilla JS",
-              "Storybook, Strapi headless CMS, Webpack 4, Docker, Gitlab CI, TDD, TYPO3",
-              "Contributed to various projects for multiple company clients."
-            ]
-          },
-          {
-            "title": "Software Testing Intern",
-            "organizationName": "Mettenmeier GmbH",
-            "timeInterval": "October 2016 – March 2018",
-            "organizationCity": "Paderborn, Germany",
-            "remote": false,
-            "description": "I worked on the following tasks:",
-            "activities": [
-              "Setup of the javascript unit tests environment with karma, jasmine and node.js",
-              "Implementation of Javascript Unit Tests",
-              "Creation of Jenkins CI pipelines",
-              "Implementation of build scripts in ANT and MS-DOS"
-            ]
-          }
-        ]
-      }
-    ],
-    "skillsBlocks": [
-      {
-        "blockTitle": "Programming & Languages",
-        "skills": [
-          "Node",
-          "Golang",
-          "TypeScript",
-          "JavaScript (ES6+)",
-          "GraphQL",
-          "SQL"
-        ]
-      },
-      {
-        "blockTitle": "Libraries & Frameworks",
-        "skills": [
-          "NestJS",
-          "React",
-          "Next.js"
-        ]
-      },
-      {
-        "blockTitle": "Test Runners & Libraries",
-        "skills": [
-          "Jest",
-          "Testcontainers"
-        ]
-      },
-      {
-        "blockTitle": "Tools | Services | Database",
-        "skills": [
-          "Google Cloud Platform (GCP)",
-          "Docker",
-          "CI / CD",
-          "MongoDB",
-          "PostgreSQL",
-          "Terraform",
-          "Kubernetes"
-        ]
-      },
-      {
-        "blockTitle": "Related Skills",
-        "skills": [
-          "Agile (Scrum)",
-          "Jira / Atlassian"
-        ]
-      },
-      {
-        "blockTitle": "Languages",
-        "skills": [
-          "German: C1",
-          "English: C1",
-          "French: native"
-        ]
-      }
-    ],
-    "educationBlocks": [
-      {
-        "organizationName": "Masters of Computer Science",
-        "location": "University Of Paderborn, Germany",
-        "timeInterval": "2017 - 2021",
-        "summary": "Pursued Masters of Computer Science (specialization Software Engineering) | <strong>Grade: 1.7</strong>",
-        "note": "",
-        "description": "Topics in Software Engineering, Software Quality Assurance, High performance Computing, Testing and Model checking."
-      }
-    ]
+  "socials": [
+    { "name": "linkedin.com/melkishengue", "link": "https://linkedin.com/in/melkishengue", "icon": "linkedin" },
+    { "name": "github.com/melkishengue", "link": "https://github.com/melkishengue", "icon": "github" }
+  ],
+  "timedBlocks": [
+    {
+      "blockTitle": "Experience",
+      "blocks": [
+        {
+          "title": "Software Engineer",
+          "organizationName": "MediaMarktSaturn",
+          "timeInterval": "September 2022 – Present",
+          "organizationCity": "Wiesbaden, Germany, Anywhere",
+          "remote": true,
+          "activities": [
+            "Develop and maintain full-stack services for the MediaMarktSaturn Marketplace Order Management platform, operating across multiple European countries.",
+            "Contribute to systems supporting a marketplace with over 1.6 million products and 1,600+ third-party sellers, enabling scalable seller onboarding and order processing.",
+            "Build backend services using NestJS and TypeScript, focusing on reliability, clean APIs, and maintainable domain logic.",
+            "Develop frontend components using React to improve internal tools and seller-facing workflows.",
+            "Automate cloud infrastructure and deployments using Terraform, GitOps, Kubernetes, and CI/CD pipelines on Google Cloud Platform (GCP).",
+            "Collaborate with cross-functional teams (product, QA, platform) to improve seller experience and ensure stable marketplace operations."
+          ]
+        },
+        {
+          "title": "Software Engineer",
+          "organizationName": "VRM Digital Communications",
+          "timeInterval": "April 2021 – Septembre 2022",
+          "organizationCity": "Mainz, Germany",
+          "remote": false,
+          "activities": [
+            "Contributed to the development and launch of a centralized publishing platform powering multiple high-traffic news websites within the VRM Group.",
+            "Implemented full-stack features using Node.js, TypeScript, GraphQL, and Vue.js, supporting content creation and delivery at scale.",
+            "Worked on APIs and frontend components used daily by editorial teams across several regional news outlets.",
+            "Collaborated closely with product owners and editors to deliver reliable publishing workflows."
+          ]
+        },
+        {
+          "title": "Software Developer Intern",
+          "organizationName": "ONDIGO - Digitale Markenkraft",
+          "timeInterval": "April 2018 – April 2021",
+          "organizationCity": "Paderborn, Germany",
+          "remote": false,
+          "description": "Development of web and mobile applications using modern JavaScript technologies:",
+          "activities": [
+            "Developed features using React, React Native, Vue.js, ES6, and vanilla JavaScript.",
+            "Worked with Storybook, Strapi headless CMS, Webpack, Docker, GitLab CI, and Test-Driven Development (TDD).",
+            "Contributed to multiple client projects, gaining experience with production systems, deployment pipelines, and team-based development."
+          ]
+        },
+        {
+          "title": "Software Testing Intern",
+          "organizationName": "Mettenmeier GmbH",
+          "timeInterval": "October 2016 – March 2018",
+          "organizationCity": "Paderborn, Germany",
+          "remote": false,
+          "description": "Software quality assurance and automation:",
+          "activities": [
+            "Set up JavaScript unit testing environments using Karma, Jasmine, and Node.js.",
+            "Implemented automated tests to improve code quality and regression safety.",
+            "Created and maintained Jenkins CI pipelines for build and test automation.",
+            "Developed build scripts using ANT and MS-DOS for legacy systems."
+          ]
+        }
+      ]
+    }
+  ],
+  "skillsBlocks": [
+    {
+      "blockTitle": "Programming & Languages",
+      "skills": [
+        "Go (Golang)",
+        "Node.js",
+        "TypeScript",
+        "JavaScript (ES6+)",
+        "GraphQL",
+        "SQL"
+      ]
+    },
+    {
+      "blockTitle": "Libraries & Frameworks",
+      "skills": [
+        "NestJS",
+        "React",
+        "Next.js"
+      ]
+    },
+    {
+      "blockTitle": "Test Runners & Libraries",
+      "skills": [
+        "Jest",
+        "Testcontainers",
+        "Unit Testing",
+        "Integration Testing"
+      ]
+    },
+    {
+      "blockTitle": "Tools | Services | Database",
+      "skills": [
+        "Google Cloud Platform (GCP)",
+        "Docker",
+        "Kubernetes",
+        "Terraform",
+        "CI / CD",
+        "GitOps",
+        "MongoDB",
+        "PostgreSQL"
+      ]
+    },
+    {
+      "blockTitle": "Related Skills",
+      "skills": [
+        "Agile (Scrum)",
+        "Jira / Atlassian",
+        "Cross-team Collaboration"
+      ]
+    },
+    {
+      "blockTitle": "Languages",
+      "skills": [
+        "German: C1",
+        "English: C1",
+        "French: native"
+      ]
+    }
+  ],
+  "educationBlocks": [
+    {
+      "organizationName": "Masters of Computer Science",
+      "location": "University Of Paderborn, Germany",
+      "timeInterval": "2017 - 2021",
+      "summary": "Master of Computer Science (Software Engineering specialization) | Grade: 1.7",
+      "note": "",
+      "description": "Topics included Software Engineering, Software Quality Assurance, High Performance Computing, Software Testing, and Model Checking."
+    }
+  ]
 }
