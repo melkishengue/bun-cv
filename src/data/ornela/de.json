@@ -25,6 +25,14 @@
         {
           "title": "Deutsch Kurs",
           "organizationName": "Volkshochschule Wiesbaden",
+          "timeInterval": "April 2026 – ?",
+          "organizationCity": "Wiesbaden, Deutschland",
+          "remote": false,
+          "activities": ["Deutsch Kurs B2"]
+        },
+        {
+          "title": "Deutsch Kurs",
+          "organizationName": "Volkshochschule Wiesbaden",
           "timeInterval": "Dezember 2025 – März 2026",
           "organizationCity": "Wiesbaden, Deutschland",
           "remote": false,
