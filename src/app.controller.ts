@@ -1,12 +1,12 @@
-import * as React from 'react';
 import { Controller, Get, Headers, Param, Query, Res } from '@nestjs/common';
-import { renderToReadableStream } from 'react-dom/server';
 import type { Response } from 'express';
 import { Readable } from 'node:stream';
+import * as React from 'react';
+import { renderToReadableStream } from 'react-dom/server';
 
 import { AppService } from './app.service';
-import { Layout } from './views/layout';
 import { Home } from './views/home';
+import { Layout } from './views/layout';
 
 const renderToClient = async (res: Response, component: React.ReactNode) => {
   const stream = await renderToReadableStream(component, {});
@@ -45,8 +45,8 @@ export class AppController {
     renderToClient(
       res,
       React.createElement(Layout, {
-        content,
         metadata: { title: data.firstName, favicon: data.favicon },
+        content,
       }),
     );
   }
