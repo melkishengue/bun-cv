@@ -1,7 +1,7 @@
 {
   "firstName": "Ornela",
   "lastName": "Yepgang Kemajou",
-  "description": "In der Zeit besuche ich einen <strong>Deutschkurs</strong>. Ich <strong>bache</strong> auch sehr gerne in meiner Freizeit. <br/>",
+  "description": "In der Zeit besuche ich einen <strong>Deutschkurs</strong>. Ich <strong>backe</strong> auch sehr gerne in meiner Freizeit. <br/>",
   "email": "ornelayepgang@gmail.com",
   "phone": "+49 015563774098",
   "profilePic": "/images/ornela.jpeg",
@@ -72,14 +72,14 @@
   "skillsBlocks": [
     {
       "blockTitle": "Languages",
-      "skills": ["Deutsch: B1", "Französisch: Muttersprachlerin"]
+      "skills": ["Deutsch: B2", "Französisch: Muttersprachlerin"]
     }
   ],
   "educationBlocks": [
     {
-      "organizationName": "Master 1 in Bank and Finance",
+      "organizationName": "Master 1 Finanzmanagement und Rechnungswesen",
       "location": "ESSEC, Kamerun",
-      "timeInterval": "2015 - 2020"
+      "timeInterval": "2014 - 2018"
     }
   ]
 }

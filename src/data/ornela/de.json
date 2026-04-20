@@ -72,12 +72,12 @@
   "skillsBlocks": [
     {
       "blockTitle": "Languages",
-      "skills": ["Deutsch: B1", "Französisch: Muttersprachlerin"]
+      "skills": ["Deutsch: B2", "Französisch: Muttersprachlerin"]
     }
   ],
   "educationBlocks": [
     {
-      "organizationName": "Master 1 in Bank and Finance",
+      "organizationName": "Master 1 Finanzmanagement und Rechnungswesen",
       "location": "ESSEC, Kamerun",
       "timeInterval": "2015 - 2020"
     }
