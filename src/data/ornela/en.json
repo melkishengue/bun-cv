@@ -11,14 +11,13 @@
     "Ich wohne in Wiesbaden, Deutschland.",
     "Ab sofort verfügbar."
   ],
-  "_socials": [
+  "socials": [
     {
-      "name": "Les petits plaisirs gourmands",
-      "link": "https://www.instagram.com/petitplaisirgourmand?igsh=cHIwZWg4NGRpMWhh",
-      "icon": "instagram"
+      "name": "",
+      "link": "",
+      "icon": ""
     }
   ],
-  "socials": [],
   "timedBlocks": [
     {
       "blockTitle": "Experience",
