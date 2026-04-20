@@ -77,7 +77,6 @@ export const Header: React.FC<HeaderProps> = (props: HeaderProps) => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                <i className={'text-purple-900 mr-1 fab fa-' + social.icon}></i>
                 {social.name}
                 <span
                   className="
